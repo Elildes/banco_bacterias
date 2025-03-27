@@ -1,11 +1,14 @@
 # Relatório do Projeto de Sistemas de Banco de Dados
 
-## Universidade [Nome da Universidade]  
-**Curso:** [Nome do Curso]  
-**Aluno:** [Nome do Aluno]  
-**Matrícula:** XXXXXXXX  
-**Professor:** [Nome do Professor]  
-**Data:** [Data]
+## Universidade Federal do Rio Garnde do Norte
+**Curso:** Bacharelado em Tecnologia da Informação e Bacharelado em Engenharia de Software  
+**Alunos:**  
+   DOUGLAS FELIPE DE LIMA SILVA  
+   ELILDES FORTALEZA SANTOS  
+   FELIPE MARLEY DE OLIVEIRA GOMES    
+**Matrícula:s** 20220054131, 20240078023 e 20210053408    
+**Professor:** MARCEL VINICIUS MEDEIROS OLIVEIRA   
+**Data:** 01/04/2025
 
 ---
 
@@ -28,13 +31,48 @@
 
 ## 1. Concepção e Definição dos Projetos
 
-A proposta deste projeto é direcionar o aprendizado dos participantes na concepção e implementação de projetos de sistemas de bancos de dados. Idealmente, estes projetos devem ser inovadores, sem esquecer a necessidade de conter requisitos de dados relativamente complexos.
+A proposta deste projeto é direcionar o aprendizado dos participantes na concepção e implementação de um sistema de banco de dados para o **Catálogo de Isolados do Laboratório de Biologia Molecular e Genômica**. O objetivo é desenvolver uma solução inovadora que permita armazenar, consultar e gerenciar informações sobre bactérias coletadas, facilitando a pesquisa e análise dos dados.
 
 > Inovação é definida na Lei brasileira como introdução de novidade ou aperfeiçoamento no ambiente produtivo e social que resulte em novos produtos, serviços ou processos ou que compreenda a agregação de novas funcionalidades ou características a produto, serviço ou processo já existente que possa resultar em melhorias e em efetivo ganho de qualidade ou desempenho. (Lei nº 13.243, de 2016)
 
-Os alunos devem:
-- Identificar os problemas da situação atual (as-is)
-- Propor soluções inovadoras para a situação futura (to-be)
+### 1.1 Problemas da situação atual (as-is)
+
+Com base na planilha e no contexto do projeto do banco de dados para o Catálogo de Isolados do Laboratório de Biologia Molecular e Genômica, os principais problemas identificados na situação atual incluem:
+
+- Armazenamento descentralizado e desorganizado: Os dados dos isolados bacterianos estão dispersos em planilhas e documentos não estruturados, dificultando a recuperação eficiente de informações.
+
+- Falta de padronização: Os registros possuem diferentes formatos e nomenclaturas, podendo causar inconsistências nos dados.
+
+- Dificuldade de acesso e compartilhamento: O acesso às informações é manual e pouco eficiente, dificultando a colaboração entre pesquisadores.
+
+- Baixa rastreabilidade das amostras: Não há um sistema que acompanhe automaticamente a atualização dos dados, tornando difícil manter um histórico confiável das informações.
+
+- Limitações em análises e consultas avançadas: Devido à estrutura não relacional dos dados, realizar análises cruzadas e buscas detalhadas é um processo demorado e manual.
+
+- Risco de perda de dados: O armazenamento em planilhas sem backup ou controle adequado pode levar à perda de informações essenciais para a pesquisa.
+
+### 1.2 Soluções inovadoras para a situação futura (to-be)
+
+Para resolver os problemas identificados, o projeto propõe as seguintes soluções inovadoras:
+
+- Desenvolvimento de um banco de dados relacional (PostgreSQL) para centralizar e estruturar os dados, garantindo consistência e segurança.
+
+- Padronização dos registros de isolados bacterianos, garantindo nomenclatura única e formatos compatíveis com padrões científicos.
+
+- Criação de uma interface web (PWA) para facilitar o cadastro, consulta e gerenciamento das amostras, acessível a partir de diferentes dispositivos.
+
+- Implementação de controle de acesso com níveis de permissão, garantindo que apenas usuários autorizados possam inserir, editar e visualizar determinadas informações.
+
+- Adoção de rastreamento e versionamento de dados, permitindo que todas as modificações fiquem registradas, garantindo maior confiabilidade na pesquisa.
+
+- Integração com ferramentas de análise genômica para permitir a importação e cruzamento de dados diretamente no sistema.
+
+- Automatização de processos como a geração de relatórios personalizados e alertas sobre novas amostras ou atualizações críticas.
+
+- Implementação de um sistema de backup automático para evitar perdas de dados e garantir a continuidade das pesquisas.
+
+Essas soluções permitirão maior eficiência, segurança e acessibilidade no gerenciamento do Catálogo de Isolados, melhorando significativamente a experiência dos pesquisadores e a qualidade das informações armazenadas.
+
 
 ---
 
